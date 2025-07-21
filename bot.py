@@ -40,12 +40,12 @@ files = glob.glob(ppath)
 JisshuBot.start()
 loop = asyncio.get_event_loop()
 
-pyrogram.utils.MIN_CHANNEL_ID = -1009147483647
+pyrogram.utils.MIN_CHANNEL_ID = -1002131408527
 
 
 async def Jisshu_start():
     print("\n")
-    print("Credit - Telegram @JISSHU_BOTS")
+    print("Credit - Telegram @SusantxBotz")
     bot_info = await JisshuBot.get_me()
     JisshuBot.username = bot_info.username
     await initialize_clients()

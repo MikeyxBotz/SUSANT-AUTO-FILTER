@@ -43,7 +43,7 @@ CAPTION_LANGUAGES = [
 UPDATE_CAPTION = """<b><blockquote>𝖭𝖤𝖶 {} 𝖠𝖣𝖣𝖤𝖣 ✅</blockquote></b>
 
 🎬 <b>{} {}</b>
-🔰 <b>Quality:</b> {}
+🎞 <b>Quality:</b> {}
 🎧 <b>Audio:</b> {}
 
 <b><blockquote>♻️ Telegram Files 🍿</blockquote></b>

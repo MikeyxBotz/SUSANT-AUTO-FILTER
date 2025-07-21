@@ -39,10 +39,10 @@ CHANNELS = [
 
 # ForceSub Channel & Log Channels
 AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "-1002369495923"))
-AUTH_REQ_CHANNEL = int(environ.get("AUTH_REQ_CHANNEL", "-1002719054927"))
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002719054927"))
-LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", "-1002719054927"))
-LOG_VR_CHANNEL = int(environ.get("LOG_VR_CHANNEL", "-1002719054927"))
+AUTH_REQ_CHANNEL = int(environ.get("AUTH_REQ_CHANNEL", "-1002498722116"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002498722116"))
+LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", "-1002498722116"))
+LOG_VR_CHANNEL = int(environ.get("LOG_VR_CHANNEL", "-1002498722116")
 
 # MongoDB
 DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://susantxbotz:vGmf4pFy1MEijuZF@cluster0.viyjnvi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -55,13 +55,13 @@ COLLECTION_NAME = environ.get("COLLECTION_NAME", "Susant-botz")
 # Other Channel's
 SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002882421915"))
 DELETE_CHANNELS = int(environ.get("DELETE_CHANNELS", "0"))
-request_channel = environ.get("REQUEST_CHANNEL", "-1002719054927")
+request_channel = environ.get("REQUEST_CHANNEL", "-1002498722116")
 REQUEST_CHANNEL = (
     int(request_channel)
     if request_channel and id_pattern.search(request_channel)
     else None
 )
-MOVIE_UPDATE_CHANNEL = int(environ.get("MOVIE_UPDATE_CHANNEL", "-1002549945814"))
+MOVIE_UPDATE_CHANNEL = int(environ.get("MOVIE_UPDATE_CHANNEL", "-1002113986175"))
 
 # Added Link Here Not Id
 SUPPORT_CHAT = environ.get("SUPPORT_CHAT", "https://t.me/+u0h_Du4Ua2hlNGFl")

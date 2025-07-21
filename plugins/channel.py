@@ -40,17 +40,17 @@ CAPTION_LANGUAGES = [
     "Urdu",
 ]
 
-UPDATE_CAPTION = """<b>𝖭𝖤𝖶 {} 𝖠𝖣𝖣𝖤𝖣 ✅</b>
+UPDATE_CAPTION = """<b><blockquote>𝖭𝖤𝖶 {} 𝖠𝖣𝖣𝖤𝖣 ✅</blockquote></b>
 
 🎬 <b>{} {}</b>
 🔰 <b>Quality:</b> {}
 🎧 <b>Audio:</b> {}
 
-<b>✨ Telegram Files ✨</b>
+<b><blockquote>♻️ Telegram Files 🍿</blockquote></b>
 
 {}
 
-<blockquote>〽️ Powered by @Jisshu_bots</b></blockquote>"""
+<blockquote>♻️Powered by @CineZoneOfficial</b></blockquote>"""
 
 QUALITY_CAPTION = """📦 {} : {}\n"""
 
@@ -196,7 +196,7 @@ async def send_movie_update(bot, file_name, files):
                 line = f"📦 {quality} : " + " | ".join(links)
                 quality_text += line + "\n"
 
-        image_url = poster or "https://te.legra.ph/file/88d845b4f8a024a71465d.jpg"
+        image_url = poster or "https://files.catbox.moe/tzdszp.jpg"
         full_caption = UPDATE_CAPTION.format(kind, title, year, files[0]['quality'], language, quality_text)
 
         movie_update_channel = await db.movies_update_channel_id()

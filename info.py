@@ -139,7 +139,7 @@ PAYPICS = (
     environ.get("PAYPICS", "https://files.catbox.moe/nj48eu.jpg")
 ).split()
 SUBSCRIPTION = environ.get(
-    "SUBSCRIPTION", "https://files.catbox.moe/nj48eu.jpg"
+    "SUBSCRIPTION", "https://files.catbox.moe/uhykxi.jpg"
 )
 REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 

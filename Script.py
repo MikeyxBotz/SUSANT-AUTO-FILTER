@@ -1,7 +1,7 @@
 
 
 class script(object):
-    START_TXT = """<b>ʜᴇʏ {}, {}
+    START_TXT = """<b><i>ʜᴇʏ {}, {}
     
 ɪ ᴀᴍ ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏꜰɪʟᴛᴇʀ ʙᴏᴛ. ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ɢɪᴠᴇ ᴍᴏᴠɪᴇs ᴏʀ sᴇʀɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘᴍ !! 😍
 <blockquote></i>🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/CineZoneOfficial">𝗖ɪɴᴇ𝗭ᴏɴᴇ🍿</a></blockquote></i></b>"""

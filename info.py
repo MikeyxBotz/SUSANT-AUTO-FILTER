@@ -18,7 +18,7 @@ def is_enabled(value, default):
 SESSION = environ.get("SESSION", "Media_search")
 API_ID = int(environ.get("API_ID", "21134445"))
 API_HASH = environ.get("API_HASH", "231c18ea7273824491d6bf05425ab74e")
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7979159207:AAEHgJECPeVJGb4_uFX_QSh1DqzyXU_CcFU")
 PORT = environ.get("PORT", "8082")
 
 # Owners
@@ -27,7 +27,7 @@ ADMINS = [
     for admin in environ.get("ADMINS", "8156708830").split()
 ]
 OWNER_USERNAME = environ.get(
-    "OWNER_USERNAME", "IM_SUSANT"
+    "OWNER_USERNAME", "NOOneIsMinee"
 )  # without @ or https://t.me/
 USERNAME = environ.get("USERNAME", "IM_SUSANT")  # ADMIN USERNAME
 
@@ -39,13 +39,13 @@ CHANNELS = [
 
 # ForceSub Channel & Log Channels
 AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "-1002369495923"))
-AUTH_REQ_CHANNEL = int(environ.get("AUTH_REQ_CHANNEL", "-1002498722116"))
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002498722116"))
-LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", "-1002498722116"))
+AUTH_REQ_CHANNEL = int(environ.get("AUTH_REQ_CHANNEL", "-1002369495923"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002719054927"))
+LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", "-1002719054927"))
 LOG_VR_CHANNEL = int(environ.get("LOG_VR_CHANNEL", "-1002719054927")
 
 # MongoDB
-DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://susantxbotz:vGmf4pFy1MEijuZF@cluster0.viyjnvi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://dragonbytexbotz:ZYivvnFytzvM9b5l@cluster0.w4qnbpw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get("DATABASE_NAME", "susant-botz")
 
 # Files index database url
@@ -70,9 +70,9 @@ MOVIE_GROUP_LINK = environ.get("MOVIE_GROUP_LINK", "https://t.me/CineZone_Reques
 # Verification
 IS_VERIFY = is_enabled("IS_VERIFY", True)
 # ---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/SusantxBotz/1231")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/SusantxBotz/1231")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/SusantxBotz/1231")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/howtoopenCineZonelinks/5")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/howtoopenCineZonelinks/5")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/howtoopenCineZonelinks/5")
 VERIFY_IMG = environ.get(
     "VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg"
 )
@@ -130,7 +130,7 @@ SEASONS = [f"season {i}" for i in range(1, 23)]
 START_IMG = (
     environ.get(
         "START_IMG",
-        "https://files.catbox.moe/gi3kmn.jpg https://files.catbox.moe/vzclp3.jpg",
+             "https://files.catbox.moe/vzclp3.jpg",
     )
 ).split()
 FORCESUB_IMG = environ.get("FORCESUB_IMG", "https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg")

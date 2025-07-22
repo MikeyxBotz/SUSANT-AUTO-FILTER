@@ -1,0 +1,34 @@
+{
+  "name": "NOBITA CLONIFY",
+  "description": "Clonify - A Telegram Music Bot, built with Python, Pyrogram & Py-TgCalls. Stream high-quality music in voice chats seamlessly!",
+  "logo": "https://i.ibb.co/9HQ9VcBz/zeixpic2.jpg",
+  "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "clonify",
+    "ProBots",
+    "TeamProBots",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram"
+  ],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "A Bot's token from Botfather",
+      "value": "",
+      "required": true
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ],
+  "stack": "container"
+}
